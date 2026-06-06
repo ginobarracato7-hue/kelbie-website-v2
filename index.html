@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelbie Home Improvement - Roof Replacement</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Fixed Header -->
+    <header class="site-header">
+        <div class="header-content">
+            <div class="logo">Kelbie</div>
+            <nav class="nav-menu">
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <button class="cta-button header-cta" onclick="window.location.href='tel:+13018885404'">
+                Call: (301) 888-5404
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-wrapper">
+            <div class="hero-left">
+                <h1 class="hero-title">Premium Roof Replacement System</h1>
+                <p class="hero-subtitle">Expert installation with materials built to last 40+ years</p>
+                <div class="hero-ctas">
+                    <button class="cta-button cta-primary" onclick="document.getElementById('contact-form').scrollIntoView({behavior:'smooth'})">Request Free Estimate</button>
+                    <button class="cta-button cta-secondary" onclick="window.location.href='tel:+13018885404'">Call Now: (301) 888-5404</button>
+                </div>
+                <p class="hero-trust">Licensed & Insured | 40+ Years of Excellence | Free Estimates</p>
+            </div>
+
+            <div class="hero-right">
+                <div class="video-card">
+                    <video class="hero-video" autoplay muted loop playsinline>
+                        <source src="client.mp4" type="video/mp4">
+                    </video>
+                    <div class="video-fallback"></div>
+                    <div class="video-label">Flat Roof Replacement System</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Value Section -->
+    <section class="value-section">
+        <div class="value-grid">
+            <div class="value-card">
+                <div class="value-number">40+</div>
+                <div class="value-label">Years of Excellence</div>
+            </div>
+            <div class="value-card">
+                <div class="value-number">3</div>
+                <div class="value-label">State Licenses</div>
+            </div>
+            <div class="value-card">
+                <div class="value-number">100%</div>
+                <div class="value-label">Satisfaction Rate</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Section -->
+    <section class="why-section" id="about">
+        <h2>Why Choose Kelbie?</h2>
+        <div class="benefits-grid">
+            <div class="benefit">
+                <h4>Licensed & Insured</h4>
+                <p>DC #3200 | MD #46033 | PA #009886</p>
+            </div>
+            <div class="benefit">
+                <h4>Free Estimates</h4>
+                <p>No obligation, fast response, professional assessment</p>
+            </div>
+            <div class="benefit">
+                <h4>Transparent Pricing</h4>
+                <p>No hidden fees, clear breakdown of all costs</p>
+            </div>
+            <div class="benefit">
+                <h4>Fast Service</h4>
+                <p>Most roofing work completed in 1-2 days</p>
+            </div>
+            <div class="benefit">
+                <h4>Premium Materials</h4>
+                <p>Only highest quality roofing systems used</p>
+            </div>
+            <div class="benefit">
+                <h4>Warranty Protection</h4>
+                <p>Full warranty on labor and materials</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <h2>Ready for Your Roof Inspection?</h2>
+        <p>Get a free estimate from Kelbie's expert roofing team</p>
+        <button class="cta-button main-cta" onclick="document.getElementById('contact-form').scrollIntoView({behavior:'smooth'})">
+            Request Free Estimate
+        </button>
+        <div class="contact-info-inline">
+            <p><strong>Call Now:</strong> <a href="tel:+13018885404">(301) 888-5404</a></p>
+            <p><strong>Service Area:</strong> Washington D.C., Maryland, Southern PA</p>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="contact-form-section" id="contact-form">
+        <h2>Get Your Free Roofing Estimate</h2>
+        <p class="form-subtitle">Licensed & Insured | DC #3200 | MD #46033 | PA #009886</p>
+
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="tel" placeholder="Your Phone Number" required>
+            <textarea placeholder="Tell us about your roofing needs..." rows="4" required></textarea>
+            <button type="submit" class="cta-button submit-btn">Get My Free Estimate</button>
+        </form>
+
+        <div class="contact-details">
+            <p><strong>Address:</strong> 145 W Ostend St Suite 600, Baltimore, MD 21230</p>
+            <p><strong>Phone:</strong> (301) 888-5404</p>
+            <p><strong>Serving:</strong> Washington D.C., Maryland, Southern Pennsylvania</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>&copy; 2024 Kelbie Home Improvement, Inc. All rights reserved.</p>
+        <p>Licensed & Insured | DC #3200 | MD #46033 | PA #009886</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
